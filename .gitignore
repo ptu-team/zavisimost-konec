@@ -1,0 +1,5 @@
+# Local scratch / downloads (not tracked in Git)
+downloads/
+tmp/
+*.tmp
+
