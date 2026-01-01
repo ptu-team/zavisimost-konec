@@ -1,4 +1,4 @@
-## external-dependencies
+## zavisimost-konec
 
 Binary / third‑party dependencies used by TDS projects (for example `spina-konec`).
 
@@ -18,8 +18,8 @@ Binary / third‑party dependencies used by TDS projects (for example `spina-kon
 Other repos (like `spina-konec`) should reference **release asset URLs**, for example:
 
 ```bash
-CLOUD_SDK_URL="https://github.com/<user-or-org>/external-dependencies/releases/download/decklink-14.1/Blackmagic_DeckLink_SDK_14.1.zip"
-CLOUD_DRIVER_URL="https://github.com/<user-or-org>/external-dependencies/releases/download/decklink-14.1/Blackmagic_Desktop_Video_Linux_14.1.tar"
+CLOUD_SDK_URL="https://github.com/<user-or-org>/zavisimost-konec/releases/download/decklink-14.1/Blackmagic_DeckLink_SDK_14.1.zip"
+CLOUD_DRIVER_URL="https://github.com/<user-or-org>/zavisimost-konec/releases/download/decklink-14.1/Blackmagic_Desktop_Video_Linux_14.1.tar"
 ```
 
 These URLs are suitable for non-interactive tools like `curl` or `wget` and can be plugged directly into setup scripts.
